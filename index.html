@@ -8,50 +8,70 @@
 </head>
 <body>
     <!-- Judul Halaman atau Bagian -->
-    <h1>Profil Mahasiswa</h1>
+    <h1>Profil Nayge Audrey Jemahi</h1>
+
+        <!-- Gambar Profil -->
+    <img src="IMG_.9428.jpeg" alt="IMG_9428" width="200">
 
     <!-- Subjudul untuk Bagian Biografi -->
     <h2>Biografi</h2>
 
     <!-- Paragraf Biografi -->
-    <p>Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas 
+    <p>Saya adalah mahasiswa yang mempelajari Teknologi Informasi di Universitas 
 pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin
 memperdalam pengetahuan dalam HTML dan CSS.</p>
 
-    <!-- Subjudul untuk Pendidikan -->
-    <h2>Pendidikan</h2>
-    <!-- Paragraf Pendidikan -->
-    <p>Saat ini saya sedang menempuh semester ketiga di jurusan Ilmu Komputer. Saya 
-mengambil kursus tentang dasar-dasar pengembangan web untuk meningkatkan 
-keterampilan saya dalam bidang ini.</p>
-
     <!-- Menggunakan Hyperlink -->
     <h2>Kontak Saya</h2>
-    <p>Anda dapat menghubungi saya melalui email di <a
-href="mailto:nama@domain.com">nama@domain.com</a>.</p>
+    <p>Anda dapat menghubungi saya melalui email dan instagram di <a>.</p>
+    <a href="mailto:nayge.audrey@gmail.com">nayge.audrey@gmail.com</a>.</p>
+    <a href="https://www.instagram.com/username/" target="_blank">instagram.com/username</a>.</p>
 
-    <!-- Menambahkan Gambar -->
-    <h2>Proyek Terakhir</h2>
-    <p>Berikut ini adalah proyek terakhir yang telah saya kerjakan:</p>
-    <img src="images/proyek-terakhir.jpg" alt="Deskripsi Proyek Terakhir">
-    <!-- Hyperlink ke dokumen eksternal -->
-    <p>Untuk informasi lebih lanjut, kunjungi <a href="http://www.domain.com"
-target="_blank">website saya</a>.</p>
 
-    <!-- Unordered List untuk menampilkan daftar hobi -->
-    <h2>Hobi Saya</h2>
-    <ul>
-<li>Membaca</li>
-<li>Bersepeda</li>
-<li>Fotografi</li>
-    </ul>
-    <!-- Ordered List untuk menampilkan proses pendidikan -->
+    <!-- Tabel Pendidikan -->
     <h2>Riwayat Pendidikan</h2>
-    <ol>
-<li>SD Negeri XYZ</li>
-<li>SMP Negeri ABC</li>
-<li>SMA Negeri 123</li>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Jenjang</th>
+            <th>Nama Institusi</th>
+            <th>Tahun</th>
+        </tr>
+        <tr>
+            <td>SD</td>
+            <td>SDI Waemata</td>
+            <td>2012 - 2018</td>
+        </tr>
+        <tr>
+            <td>SMP</td>
+            <td>SMPK St. Yoseph</td>
+            <td>2018 - 2021</td>
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>SMAK St. Ignatius Loyola</td>
+            <td>2021 - 2024</td>
+        </tr>
+        <tr>
+            <td>Kuliah</td>
+            <td>Universitas Pendidikan Nasional </td>
+            <td>2024 - Sekarang</td>
+        </tr>
+    </table>
 
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
 </body>
 </html>
 
